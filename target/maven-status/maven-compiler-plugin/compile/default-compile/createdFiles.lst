@@ -1,0 +1,5 @@
+App\BusinessCardParser.class
+App\ContactInfo.class
+App\Test.class
+App\Driver.class
+App\NameParser.class
