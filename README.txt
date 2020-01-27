@@ -1,7 +1,4 @@
 # BusinessCardAppllication
-
-BusinessCardApplication is a program designed to 
-
 ## Usage
 
 From commandline, go into the BusinessCardApplication folder. 
