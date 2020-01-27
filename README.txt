@@ -3,20 +3,20 @@
 
 From commandline, go into the BusinessCardApplication folder. 
 Once inside type runner.bat followed by at least two arguments.
-arg[0] must be a path to a list of names that the program will use with one name(first or last) per line
-       Alternatively, type "default" to use a predefined shorter list of names.
+arg[0] must be a path to a file with list of names that the program will use with one name (first or last) per line. Alternatively, type "default" to use a predefined list of names.
 arg[1]-arg[n] the paths to the documents containing the contact information.
 Note: for testing use example1.txt, example2.txt, and example3.txt
 
 examples:
 Default
-C:\...\BusinessCard: runner.bat default example1.txt example2.txt
+C:\...\BusinessCardApplication: runner.bat default example1.txt example2.txt
 Custom:
-C:\...\BusinessCard: runner.bat "C:\Docs\names.txt" BobInfo.txt
+C:\...\BusinessCardApplication: runner.bat "C:\Docs\names.txt" BobInfo.txt
 
 Example Output:
 Single Input:
 C:\...\BusinessCardApplication>runner.bat names.txt example1.txt
+
 BusinessCardApplication:
 
 Entegra Systems
